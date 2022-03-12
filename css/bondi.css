@@ -9,6 +9,14 @@ body {
   font-family: 'Roboto', sans-serif;
   height: 10000px;
 }
+.main-btn {
+  background-color: var(--red-color);
+  color: var(--yellow-color);
+  padding: 0.5rem 1rem;
+}
+.main-btn:hover {
+  color: var(--yellow-color);
+}
 /* start navbar */
 .navbar {
   background-color: var(--dark-color);
@@ -39,3 +47,9 @@ body {
   border-color: var(--green-color);
 }
 /* end navbar */
+/* start landing */
+.landing {
+  background-color: var(--dark-color);
+  min-height: calc(100vh - 72px);
+}
+/* end landing */
